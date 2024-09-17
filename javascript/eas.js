@@ -27,7 +27,6 @@ button.addEventListener('click', () => {
     }
 })
 
-let boxes = document.querySelectorAll(".box");
 
 container.addEventListener('mouseover', (e) => {
     if(e.target.classList.contains("box")) {
